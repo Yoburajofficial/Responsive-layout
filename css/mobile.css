@@ -1,0 +1,361 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Poppins_light";
+  src: url("../Poppins-Light.ttf");
+}
+
+@media only screen and (max-width:480px) {
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Poppins_light';
+    margin:0;
+    color: black;
+  }
+  
+  .container {
+    display: grid;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  h1{
+    color:#57468b;
+    font-family: 'Poppins_light';
+    font-size: 40px;
+  }
+  
+  .topnav {
+    display: grid;
+  }
+  
+  .nav_title p{
+      color: #646464;
+      font-size: 25px;
+  }
+  .nav_title span{
+      color:#ef9d1a;
+  }
+  
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    
+  }
+  
+  .topnav a.active {
+    color: #ff8a73;
+  }
+  
+  .main{
+    display: grid;
+    text-align: center;
+   
+  }
+  
+  .main h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .top_buttons{
+    display: grid;
+    gap: 10%;
+    padding-bottom: 30px;
+  
+  }
+  
+  .button_read{
+    padding: 20px 60px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Poppins_light';
+    color:white;
+    background-color: #ff8a73;
+  }
+  
+  .button_contact{
+    padding: 20px 60px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Poppins_light';
+    color:white;
+    background-color: #5580ff;
+  }
+  
+  .progress{
+    display: grid;
+    padding-top: 50px;
+    background-color: #ffffff;
+  }
+  
+  .progress h5{
+    color: #57468b;
+  }
+  
+  .app {
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 3px;
+  }
+  
+  .app>div {
+    background-color: #74ade7;
+    width: 40%;
+    height: 15px;
+    border-radius: 5px;
+  }
+  
+  .mobile {
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 3px;
+  }
+  
+  .mobile>div {
+    background-color: #5d86ff;
+    width: 40%;
+    height: 15px;
+    border-radius: 5px;
+  }
+  
+  .ux {
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 3px;
+  }
+  
+  .ux>div {
+    background-color: #ff8a73;
+    width: 40%;
+    height: 15px;
+    border-radius: 5px;
+  }
+  
+  .project {
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 3px;
+  }
+  
+  .project>div {
+    background-color: #74ade7;
+    width: 40%;
+    height: 15px;
+    border-radius: 5px;
+  }
+  
+  .row{
+    display: grid;
+    grid-gap: 2%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    color:black;
+    background-color: #ffffff;
+  }
+  
+  .user_experience{
+    box-shadow:  0 7px 30px -10px rgba(150,170,180,0.5);
+    border-radius: 3px; 
+  }
+  
+  .interface_design{
+    box-shadow:  0 7px 30px -10px rgba(150,170,180,0.5);
+    border-radius: 3px; 
+  }
+  
+  .mobile_development{
+    box-shadow:  0 7px 30px -10px rgba(150,170,180,0.5);
+    border-radius: 3px; 
+  }
+  
+  .person{
+    display: grid;
+    padding-top: 5%;
+    grid-gap: 10px;
+    padding:10 px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color:black;
+    background-color: #ffffff;
+    border: #57468b;
+  }
+  
+  .person_item{
+    box-shadow:  0 7px 30px -10px rgba(150,170,180,0.5);
+    border-radius: 3px;
+    padding-top: 40px;
+  }
+  
+  .comment_blog{
+    display: grid;
+    padding-top: 100px;
+    grid-gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .comment_item{
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+    border-radius: 3px;
+  }
+  
+  .blog2{
+    display:grid;
+    grid-gap: 60px;
+    padding-top: 50px;
+    padding-left: 10px;
+    background-color: #ffffff;
+  }
+  
+  .feed_blog{
+    display: grid;
+    padding: 20px;
+    padding-bottom: 0;
+    grid-gap: 0;
+    background-color: #ffffff;
+  }
+  
+  .item_right{
+    text-align: center;
+    grid-gap: 20px;
+    padding-top: 40px;
+  }
+  
+  /* .mail{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+  }
+  
+  .slack{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .instagram{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .twitter{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  } */
+  
+  .readmore_button{
+    padding: 20px 60px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Poppins_light';
+    color:white;
+    background-color: #ff8a73;
+  
+  }
+  
+  .form_blog{
+    display: grid;
+    padding-left: 5px;
+    background-color: #ffffff;
+    font-family: "Poppins_light";
+  }
+  .select_tag select{
+    height: 40px;
+    width: 150px;
+    font-family: "Poppins_light";
+  }
+  
+  .text_message textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    font-family: "Poppins_light";
+  }
+  .details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 15px;
+  }
+  .location_details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .form_button{
+    padding-top: 50px;
+  }
+  .send_button{
+    padding: 20px 60px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Poppins_light';
+    color:white;
+    background-color: #ff8a73;
+  
+  }
+  
+  .maptop_blog{
+    display: grid;
+    padding-top: 50px;
+    padding-left: 10px;
+    grid-gap: 10px;
+    
+  }
+  
+  .maptop_blog h4{
+    color:#57468b;
+  }
+  
+  .google_map{
+    padding-top: 50px;
+  }
+  
+  .footer{
+    display: grid;
+    padding-top: 50px;
+    grid-gap: 30px;;
+    padding-left: 10px;
+    background-color: #343352;
+  }
+  .footer h3{
+    color: #d2d2d7;
+    font-family: "Poppins_light";
+  }
+  .footer p{
+    color: #d2d2d7;
+    font-family: "Poppins_light";
+  }
+  
+}
+
+
+@media only screen and (max-width: 480px){
+  .menu_bar{
+    display: none;
+  }
+
+}
+
